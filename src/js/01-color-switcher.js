@@ -3,7 +3,7 @@ const stop = document.querySelector('[data-stop]');
 const body = document.querySelector('body')
 
 start.addEventListener('click',() => {
-    timerId = setInterval(() => {
+    const timerId = setInterval(() => {
         body.style.backgroundColor = getRandomHexColor();;
     }, 1000);
     stop.disabled = false;
