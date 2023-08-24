@@ -1,0 +1,17 @@
+button[data-start] {
+    height: 50px;
+    width: 100px;
+}
+button[data-stop] {
+    height: 50px;
+    width: 100px;
+}
+.button-container {
+    display: flex;
+    margin-right: 30px; 
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+    margin-bottom: auto;
+  
+}
